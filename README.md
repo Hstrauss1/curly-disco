@@ -1,4 +1,4 @@
-
+This was a simple little project to familiarize myself with the kernel and raspi.
 # Packet Interception Kernel Module (Raspberry Pi Communication)
 
 This project implements a Linux kernel module that uses Netfilter to intercept TCP packets containing a specific password. Once authenticated, it logs incoming payloads from that source. The system is designed to enable secure, password-activated communication between a host computer and a **Raspberry Pi**.
