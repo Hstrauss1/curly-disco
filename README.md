@@ -26,7 +26,6 @@ This module is ideal for lightweight, password-triggered communication with embe
 | `test.py`, `test-copy.py`, `second.py` | Unit tests and helper scripts |
 | `hudson@172.16.64.147` | Possibly saved SSH config/session for the Raspberry Pi |
 
-## Workflow
 
 1. Raspberry Pi sends a TCP packet containing a password (e.g. `"pass"`).
 2. Host kernel module detects the password and switches into intercept mode.
