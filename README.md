@@ -32,7 +32,7 @@ This module is ideal for lightweight, password-triggered communication with embe
 2. Host kernel module detects the password and switches into intercept mode.
 3. After that, all future TCP messages from the Pi's port and IP are recorded directly in the kernel message log.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ```bash
 make -f Makefile-Cpy
@@ -50,9 +50,9 @@ sudo rmmod Module
 
 ---
 
-## 🛠️ Quickstart Instructions
+## Quickstart Instructions
 
-### 🖥️ On the Host (Linux Machine)
+###  On the Host (Linux Machine)
 
 1. **Build the kernel module**
     ```bash
