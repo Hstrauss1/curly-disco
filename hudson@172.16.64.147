@@ -1,0 +1,10 @@
+from scapy.all import sniff
+
+def packet_callback(packet):
+    if packet.haslayer('TCP') and packet[TCP].sport == 5000:
+        # Packet is from port 5000, perform actions here
+        print("Received packet from port 5000")
+
+# Start sniffing packets on the specified interface
+interface = "eth0"  # Change to the interface you want to monitor
+sniff(iface=interface, prn=packet_callback, store=0)
